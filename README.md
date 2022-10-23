@@ -33,7 +33,7 @@ LanternCode terdiri dari:
 
 ---
 
-## Tentang LanternCode
+## Tentang Kode LanternCode
 
 - LanternCode menggunakan `parcel` sebagai build tools
 - Kelebihan dari `parcel`:
@@ -42,12 +42,21 @@ LanternCode terdiri dari:
 
 ---
 
-## Tentang LanternCode (cont.)
+## Tentang Kode LanternCode (cont.)
 
 - LanternCode menggunakan `scss`, bahasa _superset_ dari css untuk penulisan _styles_
 - Kelebihan dari `scss`:
   - penulisan kode yang efisien, tidak ada lagi pengulangan kode yang boros, dan
   - kemudahan dalam konfigurasi Bootstrap (seperti mengganti warna primary dan lain-lain)
+
+## Tentang Kode LanternCode (cont. 2)
+
+- Untuk penulisan _style_ LanternCode menggunakan konvensi
+- Kelebihan:
+  - mencegah nama _class_ yang bentrok,
+  - _reusable,_
+  - struktur yang mudah dimengerti, dan
+- Contoh: `content-creator-page__header`, `course-item-page__player-content` dan lain-lain
 
 ---
 

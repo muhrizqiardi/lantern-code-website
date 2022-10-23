@@ -21,8 +21,6 @@ dibuat oleh Muhammad Rizqi Ardiansyah (20051204044)
 
 ## Tentang LanternCode
 
-![Vite](https://vitejs.dev/logo.svg)
-
 - LanternCode menggunakan `vite` sebagai build tools
 - Kelebihan dari `vite`:
   - minim konfigurasi, dan

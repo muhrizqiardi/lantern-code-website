@@ -15,10 +15,10 @@ dibuat oleh Muhammad Rizqi Ardiansyah (20051204044)
 
 ## Tentang LanternCode
 
-- LanternCode menggunakan `vite` sebagai build tools
-- Kelebihan dari `vite`:
+- LanternCode menggunakan `parcel` sebagai build tools
+- Kelebihan dari `parcel`:
   - minim konfigurasi, dan
-  - _hot-module-replacement_ yang sangat cepat,
+  - performa sangat cepat,
 
 ---
 

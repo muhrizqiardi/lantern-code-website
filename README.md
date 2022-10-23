@@ -6,6 +6,12 @@ dibuat oleh Muhammad Rizqi Ardiansyah (20051204044)
 
 ---
 
+## Mengunjungi LanternCode
+
+<https://lantern-code-website.vercel.app/>
+
+---
+
 ## Apa itu LanternCode?
 
 - LanternCode adalah sebuah website kursus belajar pemrograman.

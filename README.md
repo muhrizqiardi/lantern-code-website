@@ -53,7 +53,7 @@ LanternCode terdiri dari:
 
 ## Tentang Kode LanternCode (cont. 2)
 
-- Untuk penulisan _style_ LanternCode menggunakan konvensi
+- Untuk penulisan _style_ LanternCode menggunakan konvensi BEM
 - Kelebihan:
   - mencegah nama _class_ yang bentrok,
   - _reusable,_

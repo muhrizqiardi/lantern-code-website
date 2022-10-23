@@ -49,6 +49,8 @@ LanternCode terdiri dari:
   - penulisan kode yang efisien, tidak ada lagi pengulangan kode yang boros, dan
   - kemudahan dalam konfigurasi Bootstrap (seperti mengganti warna primary dan lain-lain)
 
+---
+
 ## Tentang Kode LanternCode (cont. 2)
 
 - Untuk penulisan _style_ LanternCode menggunakan konvensi

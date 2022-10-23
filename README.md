@@ -56,6 +56,11 @@ LanternCode terdiri dari:
 - Memastikan Node dan NPM terpasang
 - Membuka terminal/_command prompt_
 - Mengganti direktori ke direktori projek
+
+---
+
+## Cara menjalankan LanternCode (cont.)
+
 - Meng-_install_ semua package dengan perintah:
 
   ```bash

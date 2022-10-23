@@ -19,20 +19,6 @@ dibuat oleh Muhammad Rizqi Ardiansyah (20051204044)
 
 ---
 
-## Struktur Halaman LanternCode
-
-LanternCode terdiri dari:
-
-- [_Home page_](https://lantern-code-website.vercel.app/)
-- [Halaman buat akun](https://lantern-code-website.vercel.app/sign-up.html)
-- [Halaman masuk akun](https://lantern-code-website.vercel.app/sign-in.html)
-- [Halaman informasi LanternCode Premium](https://lantern-code-website.vercel.app/premium.html)
-- [Halaman pencarian kursus](https://lantern-code-website.vercel.app/search.html)
-- [Halaman kursus](https://lantern-code-website.vercel.app/course-detail.html)
-- [Halaman _content creator_](https://lantern-code-website.vercel.app/content-creator.html)
-
----
-
 ## Tentang Kode LanternCode
 
 - LanternCode menggunakan `parcel` sebagai build tools
@@ -91,3 +77,17 @@ LanternCode terdiri dari:
   ```
 
 - Membuka halaman di <http://localhost:3000/>
+
+---
+
+## Struktur Halaman LanternCode
+
+LanternCode terdiri dari:
+
+- [_Home page_](https://lantern-code-website.vercel.app/)
+- [Halaman buat akun](https://lantern-code-website.vercel.app/sign-up.html)
+- [Halaman masuk akun](https://lantern-code-website.vercel.app/sign-in.html)
+- [Halaman informasi LanternCode Premium](https://lantern-code-website.vercel.app/premium.html)
+- [Halaman pencarian kursus](https://lantern-code-website.vercel.app/search.html)
+- [Halaman kursus](https://lantern-code-website.vercel.app/course-detail.html)
+- [Halaman _content creator_](https://lantern-code-website.vercel.app/content-creator.html)

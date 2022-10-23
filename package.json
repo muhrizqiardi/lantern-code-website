@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel *.html",
     "build": "parcel build *.html",
-    "serve": "serve"
+    "serve": "serve dist"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",

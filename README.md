@@ -26,6 +26,15 @@ dibuat oleh Muhammad Rizqi Ardiansyah (20051204044)
 
 ---
 
+## Tentang LanternCode (cont.)
+
+- LanternCode menggunakan `scss`, bahasa _superset_ dari css untuk penulisan _styles_
+- Kelebihan dari `scss`:
+  - penulisan kode yang efisien, tidak ada lagi pengulangan kode yang boros, dan
+  - kemudahan dalam konfigurasi Bootstrap (seperti mengganti warna primary dan lain-lain)
+
+---
+
 ## Cara menjalankan LanternCode
 
 - Memastikan Node dan NPM terpasang

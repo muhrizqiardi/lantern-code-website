@@ -2,8 +2,9 @@ $primary: #d01d29;
 $enable-negative-margins: true;
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
-@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap/scss/utilities";
+@import "bootstrap-icons/font/bootstrap-icons.scss";
 
 body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -18,6 +19,22 @@ img.home-page__content-creator-of-the-day-img {
   height: 384px;
   width: 100%;
   object-fit: cover;
+}
+
+#course-item-page__player-content {
+  height: 384px;
+}
+
+#content-creator-page__header {
+  height: 384px;
+  background: url("./assets/content-creator-page--header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#content-creator-page__header header {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(24px);
 }
 
 .h-screen {

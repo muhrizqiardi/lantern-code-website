@@ -62,8 +62,16 @@ LanternCode terdiri dari:
    npm install
   ```
 
-- Menjalankan server _development_ dengan perintah:
+- Melakukan proses _build_ dengan perintah:
+
+  ```bash
+  npm run build
+  ```
+
+- Menjalankan server dengan perintah:
 
   ```bash
   npm run serve
   ```
+
+- Membuka halaman di <http://localhost:3000/>

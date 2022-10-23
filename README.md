@@ -24,7 +24,7 @@ dibuat oleh Muhammad Rizqi Ardiansyah (20051204044)
 - LanternCode menggunakan `parcel` sebagai build tools
 - Kelebihan dari `parcel`:
   - minim konfigurasi, dan
-  - performa sangat cepat,
+  - performa sangat cepat
 
 ---
 
@@ -51,7 +51,7 @@ dibuat oleh Muhammad Rizqi Ardiansyah (20051204044)
 - Menjalankan server _development_ dengan perintah:
 
   ```bash
-  npx vite
+  npm run serve
   ```
 
 ---

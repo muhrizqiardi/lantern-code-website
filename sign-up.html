@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" href="./logo.svg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+
+    <title>Buat Akun - LanternCode</title>
+  </head>
+  <body>
+    <div
+      class="h-screen p-4 d-flex flex-column justify-content-start align-items-center overflow-auto"
+    >
+      <img src="./logo.svg" alt="" />
+      <article class="p-4">
+        <form class="card bg-light text-dark p-4">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Nama lengkap</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              contoh: Ahmad Budi Cahyono
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              contoh: ahmad.budi@example.com
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+            <div id="emailHelp" class="form-text">minimal 8 karakter</div>
+          </div>
+          <button type="submit" class="btn btn-primary">Buat akun</button>
+          <div class="mt-4 justify-content-center text-center">
+            <p>Sudah punya akun? <a href="/sign-in.html">Masuk ke Akun</a></p>
+          </div>
+        </form>
+      </article>
+    </div>
+
+<script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>  </body>
+</html>

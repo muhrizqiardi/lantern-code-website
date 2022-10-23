@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./logo.svg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./styles.scss" />
+
+    <title>TypeScript Tutorial untuk Pemula #1 - LanternCode</title>
+  </head>
+  <body>
+    <header class="p-3 border-bottom">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 me-md-5 text-dark text-decoration-none"
+          >
+            <img src="./logo.svg" width="40" height="40" class="me-2" alt="" />
+            <span class="fw-bold">LanternCode</span>
+          </a>
+
+          <div
+            class="d-none d-lg-block col-12 col-lg-auto ms-auto mb-3 mb-lg-0 me-lg-3"
+          >
+            <a class="me-4 text-decoration-none text-black" href="/index.html"
+              >Home</a
+            >
+            <a class="me-4 text-decoration-none text-black" href="/search.html"
+              >Pencarian</a
+            >
+            <a class="me-4 text-decoration-none text-black" href="/premium.html"
+              >LanternCode Premium</a
+            >
+          </div>
+
+          <div
+            class="d-none d-lg-block col-12 col-lg-auto ms-auto mb-3 mb-lg-0 me-lg-3"
+          >
+            <a href="/sign-in.html" class="btn btn-primary me-2">Masuk ke Akun</a>
+            <a href="/sign-up.html" class="btn btn-outline-primary">Buat Akun</a>
+          </div>
+
+          <button
+            class="ms-auto d-block d-md-none btn btn-outline-primary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+          >
+            Menu
+          </button>
+
+          <ul class="dropdown-menu d-md-none">
+            <li><a class="dropdown-item" href="/index.html">Home</a></li>
+            <li><a class="dropdown-item" href="/search.html">Pencarian</a></li>
+            <li>
+              <a class="dropdown-item" href="/premium.html"
+                >LanternCode Premium</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/sign-in.html">Masuk Akun</a>
+            </li>
+            <li><a class="dropdown-item" href="/sign-up.html">Buat Akun</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section
+        id="course-item-page__player-content"
+        class="d-flex bg-black justify-content-center"
+      >
+        <iframe
+          width="683"
+          height="100%"
+          src="https://www.youtube.com/embed/2pZmKW9-I_k"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-8 p-4">
+              <h1 class="mb-4">TypeScript Tutorial untuk Pemula #1</h1>
+              <p>
+                Oleh
+                <a href="./content-creator.html">TheNetNinja</a>
+              </p>
+              <h2>Deskripsi</h2>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Obcaecati cum ratione quis? Id, nobis ipsum? Blanditiis
+                cupiditate molestiae quis, consequatur repudiandae nemo
+                reiciendis laudantium atque voluptatem.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+                molestias est cum quaerat deserunt iusto consequuntur, a neque
+                aperiam hic consectetur sed nemo delectus dicta fugiat.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+                ab nisi. Velit at dignissimos perspiciatis repudiandae vitae ad
+                dolorum officia laborum eligendi laboriosam adipisci, inventore
+                excepturi.
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore ad saepe at tenetur dolores doloremque deserunt
+                tempore consectetur quaerat quas, nesciunt quia fugit enim,
+                nihil suscipit.
+              </p>
+            </div>
+            <div class="col-4 p-4">
+              <div class="list-group">
+                <a
+                  href="#"
+                  class="list-group-item list-group-item-action active"
+                  aria-current="true"
+                >
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Chapter 1</h5>
+                    <small>6 menit</small>
+                  </div>
+                  <p class="mb-1">
+                    Lorem ipsum dolor, sit. Modi praesentium maiores eveniet
+                    pariatur officiis?
+                  </p>
+                  <small>oleh TheNetNinja</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Chapter 2</h5>
+                    <small class="text-muted">45 menit</small>
+                  </div>
+                  <p class="mb-1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <small class="text-muted">oleh TheNetNinja</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Chapter 3</h5>
+                    <small class="text-muted">1 jam</small>
+                  </div>
+                  <p class="mb-1">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <small class="text-muted">oleh TheNetNinja</small>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
